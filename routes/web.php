@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/generate', function () {
     return view('generate');
 });
+
+Route::get('/feedback', function () {
+    return view('feedback');
+});
