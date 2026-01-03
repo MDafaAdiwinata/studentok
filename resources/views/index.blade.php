@@ -12,7 +12,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-poppins h-[2000px]">
+<body class="font-poppins">
 
     {{-- Navbar --}}
     <x-navbar></x-navbar>
@@ -31,7 +31,7 @@
             </p>
             <div class="flex flex-col sm:flex-row sm:justify-center sm:space-y-0">
                 <a href=""
-                    class="inline-flex justify-center bg-gradient-to-r from-[#84B2F3] to-[#F49867] hover:bg-gradient-to-l items-center shadow-md py-2 md:py-2.5 px-4 md:px-5 sm:ms-4 text-md md:text-lg lg:text-xl font-medium text-center rounded-xl md:rounded-2xl transition duration-300 hover:shadow-none text-[#f5f5f5]">
+                    class="inline-flex justify-center bg-gradient-to-r from-[#84B2F3] to-[#F49867] hover:bg-gradient-to-l items-center shadow-md py-2 md:py-2.5 px-4 md:px-5 sm:ms-4 text-md md:text-lg lg:text-xl font-medium text-center rounded-xl md:rounded-2xl transition duration-500 hover:shadow-none text-[#f5f5f5]">
                     Mulai Belajar!
                 </a>
             </div>
