@@ -17,13 +17,13 @@
                             <a href="/" class="hover:underline">Home</a>
                         </li>
                         <li class="mb-4">
-                            <a href="/about" class="hover:underline">Quiz Generate</a>
+                            <a href="/generate" class="hover:underline">Quiz Generate</a>
                         </li>
                         <li class="mb-4">
                             <a href="/bank" class="hover:underline">Try Quiz</a>
                         </li>
                         <li class="mb-4">
-                            <a href="/layanan" class="hover:underline">Feedback</a>
+                            <a href="/feedback" class="hover:underline">Feedback</a>
                         </li>
                     </ul>
                 </div>

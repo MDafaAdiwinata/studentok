@@ -20,7 +20,7 @@
     {{-- Quiz Generator Section --}}
     <section class="bg-center bg-no-repeat bg-[#F6F6F8] bg-cover flex flex-col">
         <div class="px-4 mx-auto container text-center py-32 lg:py-40">
-            <h1 class="mb-2 md:mb-6 text-3xl font-bold text-[#202020] md:text-4xl font-inter">
+            <h1 class="mb-2 md:mb-6 text-3xl font-bold text-[#202020] md:text-4xl lg:text-5xl font-inter">
                 Quiz Generate
             </h1>
             <form class="flex flex-col gap-2 md:gap-4">
