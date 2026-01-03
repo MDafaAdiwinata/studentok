@@ -31,7 +31,7 @@
                             class="block mb-3 text-md lg:text-lg xl:text-xl font-medium text-[#1a1a1a] text-start">
                             Jelaskan materi pembelajaran di sini
                         </label>
-                        <textarea id="message"
+                        <textarea id="message" style="resize: none;"
                             class="block p-3 w-full h-60 text-md lg:text-lg text-[#1a1a1a]/80 font-light bg-[#F0F2F5]/20 rounded-xl border border-[#1a1a1a]/40 focus:ring-[#1a1a1a] focus:border-[#1a1a1a]/40"
                             placeholder="yukk jelasin materi pembelajaran yang mau kamu jadikan quiz!"
                             ></textarea>
