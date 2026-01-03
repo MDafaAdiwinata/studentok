@@ -29,7 +29,7 @@
                   <!-- Link Navigasi -->
                   <li>
                       <a href="/"
-                          class="text-center lg:text-start mb-3 lg:mb-0 block py-2 px-3 lg:p-0 text-[#1a1a1a]/90 rounded-lg lg:bg-transparent lg:text-[#000]/60 hover:text-[#1a1a1a]">
+                          class="text-center lg:text-start mb-3 lg:mb-0 block py-2 px-3 lg:p-0 text-[#1a1a1a]/90 rounded-lg lg:bg-transparent lg:text-[#000]/60 hover:text-[#1a1a1a] transition duration-300">
                           Home
                       </a>
                   </li>
@@ -46,7 +46,7 @@
                       </a>
                   </li>
                   <li>
-                      <a href="layanan"
+                      <a href="feedback"
                           class="text-center lg:text-start mb-3 lg:mb-0 block py-2 px-3 lg:p-0 text-[#1a1a1a]/90 rounded-lg lg:bg-transparent lg:text-[#000]/60 hover:text-[#1a1a1a]">
                           Feedback
                       </a>
