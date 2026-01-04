@@ -48,4 +48,11 @@ class QuizAttemptController extends Controller
         // jika berhasil, lempar kehalaman quiz result
         return redirect()->route('quiz.result', $attempt->id)->with('success', 'Selamat, Quiz telah selesai!');
     }
+
+    // Tampilkan hasil quiz
+    public function result($attemptId)
+    {
+        $attempt = QuizAttempt::with('quiz')->findOrFail($attemptId);
+        return view('quiz.result', compact('attempt'));
+    }
 }
