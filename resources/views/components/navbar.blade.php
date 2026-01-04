@@ -34,19 +34,19 @@
                       </a>
                   </li>
                   <li>
-                      <a href="generate"
+                      <a href="/generate"
                           class="text-center lg:text-start mb-3 lg:mb-0 block py-2 px-3 lg:p-0 text-[#1a1a1a]/90 rounded-lg lg:bg-transparent lg:text-[#000]/60 hover:text-[#1a1a1a]">
                           Quiz Generate
                       </a>
                   </li>
                   <li>
-                      <a href="bank"
+                      <a href="/try-quiz"
                           class="text-center lg:text-start mb-3 lg:mb-0 block py-2 px-3 lg:p-0 text-[#1a1a1a]/90 rounded-lg lg:bg-transparent lg:text-[#000]/60 hover:text-[#1a1a1a]">
                           Try Quiz
                       </a>
                   </li>
                   <li>
-                      <a href="feedback"
+                      <a href="/feedback"
                           class="text-center lg:text-start mb-3 lg:mb-0 block py-2 px-3 lg:p-0 text-[#1a1a1a]/90 rounded-lg lg:bg-transparent lg:text-[#000]/60 hover:text-[#1a1a1a]">
                           Feedback
                       </a>

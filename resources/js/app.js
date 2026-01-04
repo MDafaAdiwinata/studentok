@@ -49,3 +49,26 @@ if (navbar && navbarContent) {
         lastScrollTop = scrollTop;
     });
 }
+
+
+// Time
+function updateClock() {
+    const clockElemen = document.getElementById("clock");
+    if (!clockElemen) return;
+
+    const now = new Date();
+    const h = String(now.getHours()).padStart(2, "0");
+    const m = String(now.getMinutes()).padStart(2, "0");
+    const s = String(now.getSeconds()).padStart(2, "0");
+
+    clockElemen.textContent = `${h}:${m}:${s}`;
+}
+
+const clockElemen = document.getElementById("clock");
+
+if (clockElemen) {
+    // Update setiap 1 detik
+    setInterval(updateClock, 1000);
+    updateClock(); // Load pertama
+}
+

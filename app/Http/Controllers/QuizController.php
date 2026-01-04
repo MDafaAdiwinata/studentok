@@ -90,9 +90,10 @@ class QuizController extends Controller
             'total_questions' => count($quizData['questions']),
         ]);
 
-        return redirect()
-            ->route('quiz.show', $quiz->id)
-            ->with('success', 'Quiz dengan 15 soal berhasil dibuat!');
+        return back()->with([
+            'success' => 'Quiz dengan 15 soal berhasil dibuat!',
+            'quiz' => $quiz
+        ]);
     }
 
     private function getMateriText(Request $request): string
@@ -124,7 +125,7 @@ class QuizController extends Controller
                 'Authorization' => 'Bearer ' . env('OPENROUTER_API_KEY'),
                 'Content-Type'  => 'application/json',
             ])->post('https://openrouter.ai/api/v1/chat/completions', [
-                'model' => 'meta-llama/llama-3.3-70b-instruct:free',
+                'model' => 'deepseek/deepseek-r1-0528:free',
                 'temperature' => 0.3,
                 'messages' => [
                     [

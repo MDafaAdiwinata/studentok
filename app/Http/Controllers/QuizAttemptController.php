@@ -39,20 +39,20 @@ class QuizAttemptController extends Controller
         $attempt = QuizAttempt::create([
             'quiz_id' => $quiz->id,
             'student_name' => $request->input('student_name'),
-            'answerts' => $answers,
-            'score' => $score,
+            'answers' => $answers,
+            'score' => round($score),
             'correct_answers' => $correctAnswers,
             'wrong_answers' => $wrongAnswers
         ]);
 
         // jika berhasil, lempar kehalaman quiz result
-        return redirect()->route('quiz.result', $attempt->id)->with('success', 'Selamat, Quiz telah selesai!');
+        return redirect()->route('quiz.result', $attempt->id)->with('success', 'Selamat Quiz telah selesai!');
     }
 
     // Tampilkan hasil quiz
     public function result($attemptId)
     {
         $attempt = QuizAttempt::with('quiz')->findOrFail($attemptId);
-        return view('quiz.result', compact('attempt'));
+        return view('quiz_result', compact('attempt'));
     }
 }
