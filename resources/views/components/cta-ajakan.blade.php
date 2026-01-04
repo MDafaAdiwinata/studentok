@@ -17,7 +17,7 @@
             </p>
 
             {{-- Button Gradient --}}
-            <a href="/register"
+            <a href="/try-quiz"
                 class="mt-8 inline-flex items-center justify-center
                       px-5 py-2.5 md:px-8 md:py-3
                       text-md md:text-lg lg:text-xl font-bold text-[#f5f5f5]
@@ -25,7 +25,7 @@
                       bg-gradient-to-r from-[#84B2F3] to-[#F49867]
                       transition-all duration-300
                       hover:scale-105 hover:shadow-lg">
-                Daftar Sekarang
+                Belajar Sekarang
             </a>
         </div>
     </div>
