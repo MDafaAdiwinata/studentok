@@ -21,7 +21,7 @@
                 </div>
                 <div class="flex items-center justify-end h-10 md:h-20">
                     <h1 class="text-end text-md md:text-lg lg:text-xl font-light text-black/60">
-                        <span id="clock" class="font-bold"></span>
+                        <span id="clock" class="font-normal"></span>
                     </h1>
                 </div>
             </div>

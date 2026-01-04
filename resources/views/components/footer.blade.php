@@ -20,7 +20,7 @@
                             <a href="/generate" class="hover:underline">Quiz Generate</a>
                         </li>
                         <li class="mb-4">
-                            <a href="/bank" class="hover:underline">Try Quiz</a>
+                            <a href="/try-quiz" class="hover:underline">Try Quiz</a>
                         </li>
                         <li class="mb-4">
                             <a href="/feedback" class="hover:underline">Feedback</a>
