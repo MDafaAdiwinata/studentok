@@ -20,15 +20,15 @@
     {{-- Try Quiz Section --}}
     <section class="py-32 lg:py-40 px-6">
         <div class="container mx-auto">
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#202020] text-center md:mb-4 font-inter">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#202020] text-center md:mb-4 font-inter" data-aos="fade-up" data-aos-delay="200">
                 Quiz yang Tersedia
             </h1>
-            <p class="text-center text-[#1a1a1a]/70 mb-16 text-md md:text-lg lg:text-xl font-light">
+            <p class="text-center text-[#1a1a1a]/70 mb-16 text-md md:text-lg lg:text-xl font-light" data-aos="fade-up" data-aos-delay="800">
                 Pilih quiz yang ingin kamu kerjakan dan uji pemahamanmu!
             </p>
 
             @if ($quizzes->isEmpty())
-                <div class="text-center py-20">
+                <div class="text-center py-20" data-aos="zoom-in" data-aos-delay="1500">
                     <svg class="w-10 h-10 mx-auto text-[#1a1a1a]/30 mb-4" fill="none" stroke="currentColor"
                         viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -42,7 +42,7 @@
                     @foreach ($quizzes as $quiz)
                         <div
                             class="bg-[#fff] rounded-2xl transition duration-300 p-6 border border-[#1a1a1a]/20 hover:-translate-y-3 cursor-pointer hover:border-black/40">
-                            <div class="flex items-start justify-between mb-4">
+                            <div class="flex items-start justify-between mb-4" data-aos="fade-down" data-aos-delay="1000">
                                 <h3 class="text-xl md:text-2xl font-bold text-[#202020] line-clamp-2 font-inter">
                                     {{ $quiz->title }}
                                 </h3>

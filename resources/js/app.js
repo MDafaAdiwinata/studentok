@@ -1,5 +1,18 @@
 import "./bootstrap";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import "flowbite";
+
+// AOS Config
+document.addEventListener('DOMContentLoaded', function() {
+    AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: false,
+        offset: 100,
+        delay: 0,
+    });
+});
 
 // Script Hilang Muncul - Navbar
 const navbar = document.getElementById("navbar");
