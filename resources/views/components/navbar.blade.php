@@ -1,4 +1,4 @@
-  <nav data-aos="fade-down" data-aos-duration="1000" data-aos-delay="2000" id="navbar"
+  <nav data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1500" id="navbar"
       class="z-50 backdrop-blur-md fixed w-full start-0 end-0 top-0 transition duration-500">
       <div class="max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-8 transition-all duration-300 ease-in-out"
           id="navbarContent">

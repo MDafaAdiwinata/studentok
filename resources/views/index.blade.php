@@ -21,16 +21,16 @@
     <section style="background-image: url('/img/bg-jumbotron.png')"
         class="bg-center bg-no-repeat min-h-screen bg-cover flex items-center justify-center">
         <div class="px-6 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-            <h1 class="mb-6 text-3xl font-extrabold text-[#202020] md:text-5xl lg:text-6xl font-inter">
+            <h1 class="mb-6 text-3xl font-extrabold text-[#202020] md:text-5xl lg:text-6xl font-inter" data-aos="fade-up" data-aos-delay="200">
                 Start your lesson and enjoy <br class="hidden md:block"> a smarter learning experience
             </h1>
             <p
-                class="my-6 mb-8 font-light leading-normal md:leading-relaxed text-[#000000]/60 text-md md:text-lg lg:text-xl xl:text-2xl sm:px-16">
+                class="my-6 mb-8 font-light leading-normal md:leading-relaxed text-[#000000]/60 text-md md:text-lg lg:text-xl xl:text-2xl sm:px-16" data-aos="fade-up" data-aos-delay="800">
                 Mulai perjalanan belajarmu di sini—belajar dari materi sendiri, berlatih lewat kuis interaktif, dan
                 lihat hasilnya secara nyata. Belajar jadi lebih mudah, menyenangkan, dan efektif.
             </p>
             <div class="flex flex-col sm:flex-row sm:justify-center sm:space-y-0">
-                <a href="generate"
+                <a href="generate" data-aos="zoom-in" data-aos-delay="1500"
                     class="inline-flex justify-center bg-gradient-to-r from-[#84B2F3] to-[#F49867] hover:bg-gradient-to-l items-center shadow-md py-2 md:py-2.5 px-4 md:px-5 sm:ms-4 text-md md:text-lg lg:text-xl font-medium text-center rounded-xl md:rounded-2xl transition duration-500 hover:shadow-none text-[#f5f5f5]">
                     Mulai Belajar!
                 </a>
@@ -41,11 +41,11 @@
     {{-- Fitur Unggulan Studentok --}}
     <section class="bg-[#F6F3F5] flex items-center justify-center py-20 text-center" id="section-diskon">
         <div class="container px-6 mx-auto">
-            <h1 class="text-[#1a1a1a] font-bold text-2xl md:text-3xl lg:text-4xl font-inter">
+            <h1 class="text-[#1a1a1a] font-bold text-2xl md:text-3xl lg:text-4xl font-inter" data-aos="fade-down" data-aos-delay="200">
                 Fitur Unggulan untuk <br class="hidden md:block">
                 Meningkatkan Pembelajaranmu
             </h1>
-            <p class="text-[#1a1a1a]/60 font-light text-md md:text-2xl mt-4 w-full md:w-1/2 mx-auto">
+            <p class="text-[#1a1a1a]/60 font-light text-md md:text-2xl mt-4 w-full md:w-1/2 mx-auto" data-aos="fade-down" data-aos-delay="800">
                 Studentok hadir
                 dengan beragam fitur yang membantu proses belajar jadi lebih mudah, efektif, dan menyenangkan.
             </p>
@@ -53,7 +53,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-8 mt-16">
                 {{-- Card 1 --}}
                 <div
-                    class="w-auto bg-[#FFF] border border-black/10 rounded-2xl flex flex-col justify-center items-start px-6 md:px-8 py-6 text-start transition duration-300 hover:-translate-y-3">
+                    class="w-auto bg-[#FFF] border border-black/10 rounded-2xl flex flex-col justify-center items-start px-6 md:px-8 py-6 text-start transition duration-300 hover:-translate-y-3" data-aos="fade-up" data-aos-delay="1000">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-openai w-8 md:w-10 h-8 md:h-10 text-[#D96E56] mb-4 md:mb-6 mt-2"
                         viewBox="0 0 16 16">
@@ -71,7 +71,7 @@
 
                 {{-- Card 2 --}}
                 <div
-                    class="w-auto bg-[#FFF] border border-black/10 rounded-2xl flex flex-col justify-center items-start px-6 md:px-8 py-6 text-start transition duration-300 hover:-translate-y-3">
+                    class="w-auto bg-[#FFF] border border-black/10 rounded-2xl flex flex-col justify-center items-start px-6 md:px-8 py-6 text-start transition duration-300 hover:-translate-y-3" data-aos="fade-up" data-aos-delay="1500">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-file-earmark-break w-8 md:w-10 h-8 md:h-10 text-[#D96E56] mb-4 md:mb-6 mt-2"
                         viewBox="0 0 16 16">
@@ -89,7 +89,7 @@
 
                 {{-- Card 3 --}}
                 <div
-                    class="w-auto bg-[#FFF] border border-black/10 rounded-2xl flex flex-col justify-center items-start px-6 md:px-8 py-6 text-start transition duration-300 hover:-translate-y-3">
+                    class="w-auto bg-[#FFF] border border-black/10 rounded-2xl flex flex-col justify-center items-start px-6 md:px-8 py-6 text-start transition duration-300 hover:-translate-y-3" data-aos="fade-up" data-aos-delay="2000">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-globe w-8 md:w-10 h-8 md:h-10 text-[#D96E56] mb-4 md:mb-6 mt-2"
                         viewBox="0 0 16 16">
@@ -111,11 +111,11 @@
     {{-- Manfaat --}}
     <section class="bg-[#FFFAFA] flex items-center justify-center py-24 text-center">
         <div class="container px-6 mx-auto">
-            <h1 class="text-[#1a1a1a] font-bold text-2xl md:text-3xl lg:text-4xl font-inter">
+            <h1 class="text-[#1a1a1a] font-bold text-2xl md:text-3xl lg:text-4xl font-inter" data-aos="fade-down" data-aos-delay="200">
                 Solusi Belajar <br class="hidden md:block">
                 untuk Siswa dan Guru
             </h1>
-            <p class="text-[#1a1a1a]/60 font-light text-md md:text-2xl mt-4 w-full md:w-1/2 mx-auto">
+            <p class="text-[#1a1a1a]/60 font-light text-md md:text-2xl mt-4 w-full md:w-1/2 mx-auto" data-aos="fade-down" data-aos-delay="800">
                 Studentok menyediakan alat yang berharga bagi siswa dan pengajar untuk meningkatkan pengalaman belajar.
             </p>
 
@@ -124,7 +124,7 @@
 
                 {{-- Card 1 --}}
                 <div
-                    class="w-auto bg-[#FFF] border border-black/10 rounded-2xl flex flex-col justify-center items-start px-6 md:px-8 py-6 text-start transition duration-300 hover:-translate-y-3">
+                    class="w-auto bg-[#FFF] border border-black/10 rounded-2xl flex flex-col justify-center items-start px-6 md:px-8 py-6 text-start transition duration-300 hover:-translate-y-3" data-aos="fade-up" data-aos-delay="1000">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-mortarboard w-8 md:w-10 h-8 md:h-10 text-[#00709A] mb-4 md:mb-6 mt-2"
                         viewBox="0 0 16 16">
@@ -144,7 +144,7 @@
 
                 {{-- Card 2 --}}
                 <div
-                    class="w-auto bg-[#FFF] border border-black/10 rounded-2xl flex flex-col justify-center items-start px-6 md:px-8 py-6 text-start transition duration-300 hover:-translate-y-3">
+                    class="w-auto bg-[#FFF] border border-black/10 rounded-2xl flex flex-col justify-center items-start px-6 md:px-8 py-6 text-start transition duration-300 hover:-translate-y-3" data-aos="fade-up" data-aos-delay="2000">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-people w-8 md:w-10 h-8 md:h-10 text-[#00709A] mb-4 md:mb-6 mt-2"
                         viewBox="0 0 16 16">
@@ -166,14 +166,14 @@
     {{-- Bagaimana cara kerjanya - Section --}}
     <section class="py-20" id="cara_kerja">
         <div class="container mx-auto px-8">
-            <h1 class="text-[#1a1a1a] font-bold text-2xl md:text-3xl lg:text-4xl text-center font-inter">
+            <h1 class="text-[#1a1a1a] font-bold text-2xl md:text-3xl lg:text-4xl text-center font-inter" data-aos="fade-down" data-aos-delay="200">
                 Bagaimana Cara Kerjanya?
             </h1>
             <div class="mt-10 md:mt-16 grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-6">
-                <img src="{{ asset('img/img-cara-kerja.png') }}" class="hidden lg:block w-full lg:w-[600px]"
+                <img src="{{ asset('img/img-cara-kerja.png') }}" class="hidden lg:block w-full lg:w-[600px]" data-aos="zoom-in" data-aos-delay="800"
                     alt="Image Help">
                 <div class="space-y-16">
-                    <div class="flex flex-col md:flex-row items-start gap-4">
+                    <div class="flex flex-col md:flex-row items-start gap-4" data-aos="fade-up" data-aos-delay="400">
                         <div
                             class="w-12 md:w-14 aspect-square shrink-0 bg-[#FFDCDC]/40 rounded-xl flex items-center justify-center text-[#FF8C5B]">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 md:w-8 h-6 md:h-8">
@@ -194,7 +194,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex flex-col md:flex-row items-start gap-4">
+                    <div class="flex flex-col md:flex-row items-start gap-4" data-aos="fade-up" data-aos-delay="800">
                         <div
                             class="w-12 md:w-14 aspect-square shrink-0 bg-[#FFDCDC]/40 rounded-xl flex items-center justify-center text-[#FF8C5B]">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 md:w-8 h-6 md:h-8" viewBox="0 0 24 24">
@@ -217,7 +217,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex flex-col md:flex-row items-start gap-4">
+                    <div class="flex flex-col md:flex-row items-start gap-4" data-aos="fade-up" data-aos-delay="1200">
                         <div
                             class="w-12 md:w-14 aspect-square shrink-0 bg-[#FFDCDC]/40 rounded-xl flex items-center justify-center text-[#FF8C5B]">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 md:w-8 h-6 md:h-8"

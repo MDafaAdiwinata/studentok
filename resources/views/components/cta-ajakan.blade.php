@@ -1,4 +1,4 @@
-    <div class="container mx-auto px-6">
+    <div class="container mx-auto px-6" data-aos="zoom-in" data-aos-delay="1000">
         <div
             class="bg-[#f5f5f5] rounded-3xl flex flex-col text-center items-center justify-center p-8 lg:p-16 border border-black/5">
             {{-- Heading Gradient --}}
