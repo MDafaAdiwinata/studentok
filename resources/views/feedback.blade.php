@@ -20,16 +20,16 @@
     {{-- Quiz Generator Section --}}
     <section class="min-h-screen bg-center bg-no-repeat bg-[#F6F6F8] bg-cover flex flex-col">
         <div class="px-4 mx-auto container text-center py-32 lg:py-38">
-            <h1 class="mb-2 md:mb-4 text-3xl font-bold text-[#202020] md:text-4xl lg:text-5xl font-inter">
+            <h1 class="mb-2 md:mb-4 text-3xl font-bold text-[#202020] md:text-4xl lg:text-5xl font-inter" data-aos="fade-up" data-aos-delay="200">
                 Hubungi Kami
             </h1>
-            <p class="font-light text-[#000000]/60 text-md md:text-lg lg:text-xl xl:text-2xl sm:px-16 lg:px-48">
+            <p class="font-light text-[#000000]/60 text-md md:text-lg lg:text-xl xl:text-2xl sm:px-16 lg:px-48" data-aos="fade-up" data-aos-delay="600">
                 Pendapatmu sangat berarti bagi kami. <br class="hidden md:block"> Bantu Studentok berkembang lebih baik
                 yukk
             </p>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-16">
                 <!-- Informasi Kontak -->
-                <div class="bg-[#fff] rounded-2xl p-6 md:p-8 border border-black/10">
+                <div class="bg-[#fff] rounded-2xl p-6 md:p-8 border border-black/10" data-aos="fade-up" data-aos-delay="1000">
                     <h2
                         class="text-lg md:text-xl lg:text-2xl text-center md:text-start font-semibold text-[#1a1a1a] font-inter">
                         Informasi kontak
@@ -105,7 +105,7 @@
                 </div>
 
                 <!-- Form Kontak -->
-                <div class="bg-white rounded-xl shadow-sm p-6 md:p-8 border border-gray-200">
+                <div class="bg-white rounded-xl shadow-sm p-6 md:p-8 border border-gray-200" data-aos="fade-up" data-aos-delay="1400">
 
                     <h2
                         class="text-center text-lg md:text-xl lg:text-2xl md:text-start font-semibold text-[#1a1a1a] font-inter">

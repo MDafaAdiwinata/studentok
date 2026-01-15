@@ -20,7 +20,7 @@
     {{-- Quiz Generator Section --}}
     <section class="bg-center bg-no-repeat bg-[#F6F6F8] bg-cover flex flex-col">
         <div class="px-4 mx-auto container text-center py-32 lg:py-40">
-            <h1 class="mb-2 md:mb-6 text-3xl font-bold text-[#202020] md:text-4xl lg:text-5xl font-inter">
+            <h1 class="mb-2 md:mb-6 text-3xl font-bold text-[#202020] md:text-4xl lg:text-5xl font-inter" data-aos="fade-down" data-aos-delay="200">
                 Quiz Generate
             </h1>
 
@@ -70,7 +70,7 @@
                 @csrf
                 <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-[2fr_1fr] gap-6 mt-8">
                     <!-- Textarea -->
-                    <div class="">
+                    <div class="" data-aos="fade-up" data-aos-delay="800">
                         <label for="message"
                             class="block mb-3 text-md lg:text-lg xl:text-xl font-medium text-[#1a1a1a] text-start">
                             Jelaskan materi pembelajaran di sini
@@ -80,7 +80,7 @@
                             placeholder="yukk jelasin materi pembelajaran yang mau kamu jadikan quiz! (maks: 6000 karakter)"></textarea>
                     </div>
                     {{-- File Upload --}}
-                    <div class="flex flex-col items-start justify-center w-full">
+                    <div class="flex flex-col items-start justify-center w-full" data-aos="fade-up" data-aos-delay="1200">
                         <p class="block mb-3 text-md lg:text-lg xl:text-xl font-medium text-[#1a1a1a] text-start">
                             Atau, upload file materi
                         </p>
@@ -108,13 +108,13 @@
                     </div>
                 </div>
                 <div class="flex flex-col md:flex-row items-center justify-end gap-2">
-                    <span data-modal-target="modalS&K" data-modal-toggle="modalS&K"
+                    <span data-modal-target="modalS&K" data-modal-toggle="modalS&K" data-aos="zoom-in" data-aos-delay="800"
                         class="cursor-pointer block text-black/60 hover:text-black underline font-semibold rounded-lg text-md px-5 py-2.5 text-center">
                         Baca S&K
                     </span>
 
                     <!-- Tombol Submit Normal -->
-                    <button type="submit" id="submitBtn"
+                    <button type="submit" id="submitBtn" data-aos="zoom-out" data-aos-delay="2000"
                         class="w-full md:w-fit md:ms-auto text-[#f0f0f0] bg-[#36656B] border border-[#1a1a1a]/20 hover:bg-[#75B06F] hover:text-heading shadow-md hover:shadow-none font-semibold leading-5 rounded-full text-sm md:text-md lg:text-lg px-6 py-2 transition duration-300">
                         Generate Quiz
                     </button>
